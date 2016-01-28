@@ -105,7 +105,6 @@ for(a=0;a<inprogressArray_array.length;a++){
   inpro_obj = inprogressArray_array[a];
 
   qualification_id =inpro_obj.qualification_id;
-  subco_statuss =inpro_obj.subco_status;
  //alert(qualification_id+'t');
 var sup_inprogress=inpro_obj.name;
 var date_new=inpro_obj.assigned_on;
@@ -383,7 +382,6 @@ function callnextinprogress(index){
   inpro_obj = inprogressArray_array[index];
   qualification_id =inpro_obj.qualification_id;
 
-subco_statuss =inpro_obj.subco_status;
   //alert(inpro_obj.verification_user_id+'superArray');
   user_ida=inpro_obj.verification_user_id;
   //alert(qualification_id +'hw');
@@ -474,7 +472,6 @@ if(loggg == ''){
 }
 }
 
-if(subco_statuss == "reject"){
 for(a=0;a<coordinator_final_comment_array.length;a++){
 reject_rep = coordinator_final_comment_array[a];
 
@@ -487,7 +484,6 @@ gj =super_inpro_obj.verification_user_id;
 if( hj == gj && huemploy == qualification_id){
   reject_repa = coordinator_final_comment_array[a];
 //alert(reject_repa.verification_id+'reject_repa'+gj);
-}
 }
 }
 
