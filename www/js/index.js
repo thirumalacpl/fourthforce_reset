@@ -124,9 +124,12 @@ alert('Network error has occurred please try again!');
 });
 
 $(document).off('click', '#chngpass').on('click', '#chngpass', function() { 
-alert('chngpass');
+//alert('chngpass');
   });
-
+$(document).off('click', '#resetonepage').on('click', '#resetonepage', function() { 
+ $.mobile.changePage($('#changepass'), { transition: "none", changeHash: true, reverse: false }); 
+   return false;
+});
 $(document).off('click', '#chngpass').on('click', '#chngpass', function() { 
   alert('chngpass');
             if($('#userchn').val().length > 0 && $('#chngpassword').val().length > 0){

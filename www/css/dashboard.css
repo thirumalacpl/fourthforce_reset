@@ -685,7 +685,7 @@ textarea.ui-input-text.ui-textinput-autogrow {
 .input-icon.left input {
    /* padding-left: 120px !important;*/
    padding-left: 70px !important;
-    padding-top: 25px;
+    padding-top: 45px;
 }
 .paic{
 	width: 25px !important;
@@ -781,7 +781,7 @@ position: absolute !important;
     display: block !important;
     position: absolute !important;
     z-index: 1;
-    margin: -1px 2px 1px 12px !important;
+   /* margin: -1px 2px 1px 12px !important;*/
     width: 16px;
     height: 16px;
     font-size: 45px !important;

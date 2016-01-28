@@ -75,6 +75,10 @@ document.getElementById('chngpassword').value = "";
             return false; // cancel original event to prevent form submitting
         }); 
 
+$(document).off('click', '#backtopageone').on('click', '#backtopageone', function() { 
+ $.mobile.changePage($('#pageone'), { transition: "none", changeHash: true, reverse: false }); 
+   return false;
+});
 
 });
 
